@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
 * {
 margin: 0;
 padding: 0;
@@ -19,28 +21,34 @@ margin-left: 50px;
 color: rgb(48, 48, 77);
 }
 nav{
-    width: 100vw;
+    width: 90vw;
     position: fixed;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    
 }
 .navs a{
     padding-right: 70px;
     padding-left: 20px;
+    padding-bottom: 0%;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     color: black;
+    cursor: pointer;
 }
 #header{
-    padding-top: 50px;
+    padding-top: 1px;
     width: 100vw;
     height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #email{
     width: 350px;
@@ -61,6 +69,9 @@ nav{
     border: none;
     cursor: pointer;
 }
+
+
+
 .section-container{
     width: 100vw;
     height: 40vh;
@@ -81,7 +92,24 @@ i{
     color: orange;
 }
 .side-note{
-    flex:1;
+    flex:1fr;
+    width: 900px;
+}
+
+h2 {
+    font-weight: bolder;
 }
 /* input[type=submit] */
 
+.pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.product {
+    width: 200px;
+
+}
