@@ -98,6 +98,7 @@ i{
 
 h2 {
     font-weight: bolder;
+    text-align: center;
 }
 /* input[type=submit] */
 
@@ -109,7 +110,22 @@ h2 {
     
 }
 
+.level{
+    background-color: gray;
+}
+
 .product {
     width: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: white;
+    margin-right: 20px;
+    list-style-type:none;
+    text-align: center;
+}
 
+.btn {
+    background-color: #f1c40f;
+    padding: 5px;
 }
