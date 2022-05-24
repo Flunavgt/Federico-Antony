@@ -21,7 +21,7 @@ margin-left: 50px;
 color: rgb(48, 48, 77);
 }
 nav{
-    width: 90vw;
+    width: 100vw;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -41,6 +41,20 @@ nav{
 #header{
     padding-top: 1px;
     width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 0px;
+}
+
+.handcrafted {
+    padding-top: 1px;
+    width: 100vw;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -49,6 +63,8 @@ nav{
     font-size: 25px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    border-top: 0px;
+
 }
 #email{
     width: 350px;
@@ -56,6 +72,11 @@ nav{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px;
+}
+
+p{
+    font-size: 18px;
+
 }
 #header button{
     width: 150px;
@@ -89,12 +110,24 @@ nav{
     margin-bottom: 30px;
 }
 i{
-    color: orange;
+    color: darkorange;
 }
+
+.fa {
+    font-family: font awe;
+}
+
 .side-note{
     flex:1fr;
     width: 900px;
 }
+
+.services {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 30px;
+}
+
 
 h2 {
     font-weight: bolder;
@@ -120,13 +153,13 @@ h2 {
     height: 350px;
     border-style: solid;
     border-color: black;
-    border-width: 5px;
-    margin-right: 20px;
+    border-width: 1px;
+    margin-right: 25px;
     list-style-type:none;
     text-align: center;
     font-family: 'lato',sans-serif;
     font-size: larger;
-    
+    margin-top: 60px;
 }
 
 li:not(:last-child) {
@@ -142,3 +175,21 @@ li:not(:last-child) {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: black;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
