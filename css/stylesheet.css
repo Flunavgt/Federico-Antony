@@ -111,21 +111,34 @@ h2 {
 }
 
 .level{
-    background-color: gray;
+    background-color: #DDDDDD;
+    padding: 15px 0px;
 }
 
 .product {
-    width: 200px;
+    width: 350px;
+    height: 350px;
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    background-color: white;
     margin-right: 20px;
     list-style-type:none;
     text-align: center;
+    font-family: 'lato',sans-serif;
+    font-size: larger;
+    
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 .btn {
     background-color: #f1c40f;
-    padding: 5px;
+    padding: 20px;
+    width: 130px;
+    margin: 50px;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
